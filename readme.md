@@ -19,7 +19,7 @@ add .env file
 
 	CLIENT_ID=
 	APP_VERSION=
-	APP_LOCALE
+	APP_LOCALE=en
 	
 ``` bash
 $ php artisan vendor:publish
