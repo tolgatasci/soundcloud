@@ -4,8 +4,7 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
-
+Laravel soundcloud api v2 version. 
 ## Installation
 
 Via Composer
@@ -15,6 +14,19 @@ $ composer require tolgatasci/soundcloud
 ```
 
 ## Usage
+
+add .env file
+
+	CLIENT_ID=
+	APP_VERSION=
+	APP_LOCALE
+	
+``` bash
+$ php artisan vendor:publish
+```
+
+
+Look tests
 
 ## Change log
 
