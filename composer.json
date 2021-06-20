@@ -8,6 +8,8 @@
         "url": "https://github.com/tolgatasci/soundcloud"
       }
     ],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
     "authors": [
         {
             "name": "tolga",
