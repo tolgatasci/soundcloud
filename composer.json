@@ -12,6 +12,7 @@
     "homepage": "https://github.com/tolgatasci/soundcloud",
     "keywords": ["Laravel", "Soundcloud"],
     "require": {
+		"php": "^7.1",
         "illuminate/support": "~7|~8",
         "ixudra/curl": "6.*"
     },
@@ -28,6 +29,12 @@
         "psr-4": {
             "Tolgatasci\\Soundcloud\\Tests\\": "tests"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --no-coverage",
+        "test-f": "vendor/bin/phpunit --no-coverage --filter",
+        "test-coverage": "vendor/bin/phpunit",
+        "test-coverage-f": "vendor/bin/phpunit --filter"
     },
     "extra": {
         "laravel": {
